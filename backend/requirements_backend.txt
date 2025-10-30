@@ -1,0 +1,71 @@
+# FastAPI + ASGI server
+fastapi==0.117.1
+uvicorn==0.37.0
+
+# Data validation
+pydantic==2.11.9
+pydantic_core==2.33.2
+typing_extensions==4.15.0
+annotated-types==0.7.0
+
+# ML + NLP stack
+scikit-learn==1.7.1
+scipy==1.16.2
+numpy==1.26.4
+pandas==2.3.2
+joblib==1.5.2
+nltk==3.9.1
+spacy==3.7.0
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+thinc==8.2.5
+blis==0.7.11
+catalogue==2.0.10
+confection==0.1.5
+murmurhash==1.0.13
+preshed==3.0.10
+srsly==2.5.1
+wasabi==1.1.3
+weasel==0.3.4
+langcodes==3.5.0
+language_data==1.3.0
+regex==2025.9.18
+tqdm==4.67.1
+dill==0.4.0
+
+# Utility
+requests==2.32.5
+python-dateutil==2.9.0.post0
+
+# en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.0/en_core_web_lg-3.7.0.tar.gz#sha256=996b7c74422139dcb4acf5b640f2836af1611e38b7728e3303b8c768cb8555a4
+
+
+
+scikit-learn==1.7.1
+pandas
+matplotlib
+seaborn
+streamlit
+numpy
+ipykernel
+dill
+nltk
+spacy
+openpyxl
+wordcloud
+fastapi==0.117.1
+uvicorn==0.37.0
+pydantic==2.11.9
+pydantic_core==2.33.2
+joblib==1.5.2
+spacy==3.7.0          # your spaCy version
+vaderSentiment
+en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.0/en_core_web_lg-3.7.0.tar.gz
+notebook
+deep-translator
+
+langdetect 
+googletrans==4.0.0-rc1
+imblearn
+xgboost
+lightgbm
