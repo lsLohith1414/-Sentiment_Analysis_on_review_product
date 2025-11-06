@@ -119,12 +119,3 @@ Would you like me to add emojis (📂, 🧠, 🧩, etc.) or keep it plain text s
 
 ### 4️⃣ Output Example 3
 ![Output Image 3](Images/output_image-4.png)
-
----
-
-## ⚙️ How to Run the Project
-
-### 🧩 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/SENTIMENT_ANALYSIS_API.git
-cd SENTIMENT_ANALYSIS_API
