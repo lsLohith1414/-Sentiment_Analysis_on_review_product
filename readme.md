@@ -56,3 +56,19 @@ Sentiment-Analysis-App/
 ├── requirements.txt # Dependencies
 
 └── README.md # Documentation
+
+
+
+## 🖼️ Project Screenshots
+
+### 1️⃣ Web App Interface
+![Web App Screenshot](images/output_image-1.png)
+
+### 2️⃣ Output Image-1
+![Output Image-1](images/output_image-2.png)
+
+### 3️⃣ Output Image-2
+![Output Image-2](images/output_image-3.png)
+
+### 3️⃣ Output Image-3
+![Output Image-3](images/output_image-4.png)
