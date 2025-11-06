@@ -19,7 +19,7 @@ This project demonstrates how **Machine Learning**, **FastAPI**, and **Streamlit
 ✅ REST API built using FastAPI  
 ✅ Displays probability distribution for each sentiment class  
 ✅ Modular and easy-to-extend architecture  
-✅ Trained ML model integrated for instant predictions
+✅ Trained ML model integrated for instant predictions  
 
 ---
 
@@ -36,39 +36,95 @@ This project demonstrates how **Machine Learning**, **FastAPI**, and **Streamlit
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Folder Structure
+SENTIMENT_ANALYSIS_API/
 
-Sentiment-Analysis-App/
+├── backend/
+
+│ ├── pycache/
+
+│ ├── models/
+
+│ ├── notebook/
+
+│ ├── prediction/
+
+│ ├── preprocessing/
+
+│ ├── schema/
+
+│ ├── sentiment_data/
+
+│ ├── app.py
+
+│ └── Dockerfile
+
 │
 
-├── app.py # FastAPI backend
+├── frontend/
 
-├── streamlit_app.py # Streamlit frontend app
+│ ├── app.py
 
-├── prediction/
+│ ├── Dockerfile
 
-│ └── review_prediction.py # Model loading and prediction logic
+│ └── requirements_frontend.txt
 
-├── models/
+│
 
-│ └── sentiment_model.pkl # Trained ML model
+├── Images/
 
-├── requirements.txt # Dependencies
+├── notebook/
 
-└── README.md # Documentation
+├── venv/
+
+│
+
+├── .gitignore
+
+├── readme.md
+
+├── requirements.txt
 
 
+---
+
+### 📘 Description
+- **backend/** → Contains API logic, models, preprocessing scripts, prediction modules, and schema definitions.  
+- **frontend/** → Contains the user interface and related dependencies.  
+- **Images/** → For storing project-related images or results.  
+- **notebook/** → Jupyter notebooks for experimentation or data analysis.  
+- **venv/** → Python virtual environment.  
+- **requirements.txt** → Lists backend dependencies.  
+- **requirements_frontend.txt** → Lists frontend dependencies.  
+- **Dockerfile** → Used for containerization (backend and frontend have separate files).  
+- **app.py** → Main application entry points for backend and frontend.  
+
+---
+
+Would you like me to add emojis (📂, 🧠, 🧩, etc.) or keep it plain text style for a more professional README?
+
+
+---
 
 ## 🖼️ Project Screenshots
 
 ### 1️⃣ Web App Interface
-![Web App Screenshot](images/output_image-1.png)
+![Web App Screenshot](Images/output_image-1.png)
 
-### 2️⃣ Output Image-1
-![Output Image-1](images/output_image-2.png)
+### 2️⃣ Output Example 1
+![Output Image 1](Images/output_image-2.png)
 
-### 3️⃣ Output Image-2
-![Output Image-2](images/output_image-3.png)
+### 3️⃣ Output Example 2
+![Output Image 2](Images/output_image-3.png)
 
-### 3️⃣ Output Image-3
-![Output Image-3](images/output_image-4.png)
+### 4️⃣ Output Example 3
+![Output Image 3](Images/output_image-4.png)
+
+---
+
+## ⚙️ How to Run the Project
+
+### 🧩 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/SENTIMENT_ANALYSIS_API.git
+cd SENTIMENT_ANALYSIS_API
